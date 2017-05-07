@@ -1,5 +1,6 @@
 ### Typecho主题Autumn v1.0
 
+
 ![screenshot](screenshot.png)
 
 修改自：[silence](https://github.com/typecho-fans/themes/tree/master/silence)，感谢原作者。
