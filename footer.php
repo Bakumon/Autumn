@@ -107,8 +107,10 @@
 <?php endif; ?>
     </div><!--=E #ancillary -->
 <?php endif; ?>
-    <div id="copyright"><p>Copyright &copy; <?php $this->options->title(); ?> – Powered by <a href="http://typecho.org" target="_blank">Typecho)))</a> - Theme by <a href="http://lcz.me" target="_blank">ShingChi</a></p></div><!--=E #copyright -->
+    <div id="copyright"><p>Copyright &copy; <?php $this->options->title(); ?></p></div><!--=E #copyright -->
 </footer><!--=E Footer -->
 <?php $this->footer(); ?>
+<script src="https://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+<script >hljs.initHighlightingOnLoad();</script>
 </body>
 </html>

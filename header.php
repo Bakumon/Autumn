@@ -8,6 +8,7 @@
 <title><?php $this->archiveTitle(' &raquo; ', '', ' - '); ?><?php $this->options->title(); ?></title>
 <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>" />
 <link rel="stylesheet" href="<?php $this->options->themeUrl('skin/' . $this->options->css . '.css'); ?>" />
+<link href="https://cdn.bootcss.com/highlight.js/8.0/styles/monokai_sublime.min.css" rel="stylesheet"> 
 <?php if (!empty($this->options->background) || !empty($this->options->pattern)): ?>
 <style type="text/css">
 body { background: <?php echo $this->options->background . ' url(' . $this->options->themeUrl . '/images/patterns/' . $this->options->pattern . '.png)'; ?>; }
@@ -15,7 +16,7 @@ body { background: <?php echo $this->options->background . ' url(' . $this->opti
 <?php endif; ?>
 <?php $this->header('generator=&template='); ?>
 <!-- 添加统计代码 -->
-<?php $this->options->analyticsCode() ?>
+<?php $this->options->analyticsCode() ?> 
 </head>
 <body>
 <div class="container">
