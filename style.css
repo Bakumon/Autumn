@@ -216,7 +216,7 @@ input:focus, textarea:focus { border-color: rgba(82, 168, 236, 0.8); box-shadow:
 blockquote { padding: 13px 20px; background: url(images/quote.png) no-repeat scroll top left; color: #656565; font: italic 17px "Droid Serif", Georgia, "Times New Roman", Times, serif; }
 blockquote p { margin: 0px; margin-left: 20px; padding:15px; padding-top: 0px; border-left: 1px solid #f0f0f0; line-height:1.7em; }
 pre, code { font-family: Consolas, Menlo, Monaco, "Lucida Console", "Liberation Mono", "Courier New", monospace, serif; }
-pre { margin: 15px 0; max-height: 1000px; padding: 1em; overflow: auto; border: 1px; line-height: 1.5; }
+pre { margin: 15px 0; max-height: 1000px; overflow: auto; border: 1px; line-height: 1.5; }
 code { border-bottom: 1px;}
 .highlight1 { padding: 1px 3px; background: #FDF8AD; color: #777; }
 .highlight2 { padding: 1px 3px; background: #909090; color: #FFF; }

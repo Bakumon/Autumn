@@ -110,7 +110,7 @@
     <div id="copyright"><p>Copyright &copy; <?php $this->options->title(); ?></p></div><!--=E #copyright -->
 </footer><!--=E Footer -->
 <?php $this->footer(); ?>
-<script src="https://cdn.bootcss.com/highlight.js/8.0/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/highlight.js/9.1.0/highlight.min.js"></script>
 <script >hljs.initHighlightingOnLoad();</script>
 </body>
 </html>
