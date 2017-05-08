@@ -11,10 +11,7 @@
                         <p class="post-info"><?php $this->category(' / '); ?> Posted by <a href="<?php $this->author->permalink(); ?>"><?php $this->author(); ?></a><span class="comments"> / <a href="<?php $this->permalink(); ?>#comments"><?php $this->commentsNum('0', '1', '%d'); ?></a> comments</span></p>
                         <div class="post-date"><span><?php dateConvert($this->date->month); ?></span><span><?php $this->date('d'); ?></span></div>
                     </header>
-                    <section class="post-content">
-                        <?php $this->content('Read More &raquo;'); ?>
 
-                    </section>
                     <footer></footer>
                 </article>
 <?php endwhile; ?>
