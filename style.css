@@ -94,8 +94,12 @@ h1.page-heading { margin-top: -3px; font-size: 16px; margin-bottom: 10px; }
 .post { margin-bottom: 35px; }
 .post header { position: relative; padding-left: 67px; }
 .post-title { margin: 0; font-style: normal; font-size: 22px; }
+.post a:hover { color: #939393; text-decoration: underline; }
 .post-title a:hover { color: #939393; text-decoration: none; }
 .post-info { margin: 0; font-size: 11px; letter-spacing: 1px; }
+.post a{ text-decoration: underline; }
+.post-info a{ text-decoration: none; }
+.post-title a{ text-decoration: none; }
 .post .post-date { position: absolute; top: 5px; left: 0; width: 51px; height:51px; background: url(images/date-bg.png) no-repeat; text-align: center; }
 .post .post-date span { display: block; margin-top: 5px; margin-left: 4px; color: #b4b4b4; font-size: 11px; text-transform: uppercase; letter-spacing: 3px; }
 .post .post-date > span + span { margin: 0px; color: #7C7C7C; font: bold 20px/17px "Times New Roman", Times, serif; }
